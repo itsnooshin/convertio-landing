@@ -183,9 +183,30 @@ a{
 .brands{
     max-width: 800px;
     margin: 2rem auto;
+    padding-bottom: 2.4rem;
 }
 .title-brands{
     font-size: 1.5rem;
     color: #0b1226;
     font-weight: 600;
+}
+
+/* section comments */
+.text-box{
+    background-color: #F7FAFC;
+    padding: 6rem 0;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.text-comments{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #0b1226;
+    font-weight: 400;
 }
