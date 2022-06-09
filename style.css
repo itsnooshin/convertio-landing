@@ -5,7 +5,7 @@
     margin: 0;
 }
 html{
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
     font-size: 62.5%;
 }
 body{
@@ -42,7 +42,9 @@ a{
     
 }
 
-
+.center-text{
+    text-align: center;
+}
 
 
 
@@ -104,7 +106,7 @@ a{
 
 /* section hero container */
 .section-hero{
-    padding: 9rem 0;
+  padding: 6rem 0;
 }
 .icon-text{
     height: 20px;
@@ -149,4 +151,41 @@ a{
     font-size: 1.1rem;
     margin-top: 2rem;
     line-height: 1.2;
+}
+
+
+/* quoate section */
+.quoat-section{
+    padding: 3rem 0;
+}
+.quoat-icon{
+    color:#868e96;
+    transform: scale(4);
+    margin-bottom: 1rem;
+}
+.text-quate-message{
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    color: #0b1226;
+    line-height: 1.4;
+    font-style: italic;
+    width: 500px;
+    margin: 0 auto;
+}
+.images-brands{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.brands-img{
+    height: 30px;
+}
+.brands{
+    max-width: 800px;
+    margin: 2rem auto;
+}
+.title-brands{
+    font-size: 1.5rem;
+    color: #0b1226;
+    font-weight: 600;
 }
