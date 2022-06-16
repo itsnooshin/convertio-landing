@@ -407,7 +407,7 @@ strong {
 
 /* first box of pricing plan */
 .pricing-plans {
-  padding: 2rem 0 6rem 0;
+  padding: 2rem 0 3rem 0;
 }
 .pricing-plan {
   border: 4px solid #0b1226;
@@ -487,4 +487,60 @@ strong {
   position: absolute;
   top: -25px;
   right: 20px;
+}
+/* section timing */
+.section-time {
+  padding: 3rem 0 5rem 0;
+}
+.container-time {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container-time__title {
+  font-size: 1.5rem;
+  color: #0b1226;
+}
+.container-time__title span {
+  color: #2ad38a;
+  text-decoration: underline;
+}
+.time__discription {
+  font-size: 1.1rem;
+  width: 500px;
+  margin: 20px auto 50px auto;
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 11px;
+  color: #0b1226;
+  line-height: 1.4;
+}
+.container-time__title-coundown {
+  color: #0b1226;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.countdown {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  align-items: center;
+  /* discription li */
+  gap: 10px;
+  color: #0b1226;
+  font-size: 1.3rem;
+}
+.countdown span {
+  background-color: #0b1226;
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 600;
+  padding: 1rem 1rem;
+  border-radius: 11px;
+}
+.container-time__countdown ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
